@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priyanka Settipalli- ITMD 541</title>
+    <title>Priyanka Settipalli - ITMD 541</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Priyanka Settipalli</h1>
+    <!-- Header Section with Name -->
+    <header>
+        <h1>Priyanka Settipalli</h1>
+        <p>Welcome to my ITMD 541 Lab page!</p>
+    </header>
 
+    <!-- Section 1: Introduction -->
     <section>
-        <h2>Section 2: Education</h2>
-        <ul>
-          <li><strong>Bachelor of Technology in Electrical and Electronics Engineering</strong>, Gokaraju Rangaraju Institute of Engineering and Technology, India (GPA: 3.6)</li>
-          <li><strong>Master’s in Information Technology and Management</strong>, Illinois Institute of Technology (GPA: 3.66)</li>
-          <li><strong>Full Stack Developer Intern</strong>, Cognizant Technology Solutions: Worked on building and maintaining web applications</li>
-        </ul>
-
+        <h2>Introduction</h2>
+        <p>I'm from [Your Place], and I enjoy [Your Hobbies]. I've been in the U.S. for [How Long You've Been Here].</p>
     </section>
 
+    <!-- Section 2: Education -->
     <section>
         <h2>Education</h2>
-        <p>I have a Bachelor of Technology in Electrical and Electronics Engineering and I’m currently pursuing a Master's in Information Technology and Management at Illinois Institute of Technology.</p>
-        <p>I have some experience building websites using HTML, CSS, and JavaScript.</p>
+        <ul>
+            <li><strong>Bachelor of Technology in Electrical and Electronics Engineering</strong>, Gokaraju Rangaraju Institute of Engineering and Technology, India (GPA: 3.6)</li>
+            <li><strong>Master’s in Information Technology and Management</strong>, Illinois Institute of Technology (GPA: 3.66)</li>
+            <li><strong>Full Stack Developer Intern</strong>, Cognizant Technology Solutions: Worked on building and maintaining web applications</li>
+        </ul>
+        <p>I have experience in building websites using HTML, CSS, and JavaScript.</p>
     </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Created for ITMD 541 class</p>
+    </footer>
 </body>
 </html>
