@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: navy; /* Change text color */
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkgreen;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+section:nth-child(2) {
+    background-color: lightcoral; /* First box color */
+}
+
+section:nth-child(3) {
+    background-color: lightblue;  /* Second box color */
+}
