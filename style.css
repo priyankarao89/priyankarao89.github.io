@@ -7,47 +7,47 @@ body {
   margin: 0;
   padding: 0;
   border: 10px solid #142d4c;
-header {
-  background-color: #4caf50; /* Green background */
-  color: white;
-  text-align: center;
-  padding: 20px;
-  background-color: #385170; /* Background color blue */
-  box-sizing: border-box; /* Ensures padding and border are included in the element's total width/height */
-}
+  header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #385170;
+    box-sizing: border-box;
+  }
 
-/* Section Styling */
-section {
-  padding: 20px; /* Padding inside the box */
-  margin: 20px; /* Margin outside the box */
-  border: 2px solid #ececec; /* Red border around the section */
-  background-color: blue; /* Blue background */
-  box-sizing: border-box; /* Ensures padding and border are included in the element's total width/height */
-}
+  /* Section Styling */
+  section {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ececec;
+    background-color: blue;
+    box-sizing: border-box;
+  }
 
-/* Section 1: Introduction */
-section:nth-of-type(1) {
-  background-color: #9fd3c7; /* Yellow background */
-  color: #333;
-}
+  /* Section 1: Introduction */
+  section:nth-of-type(1) {
+    background-color: #9fd3c7;
+    color: #333;
+  }
 
-/* Section 2: Education */
-section:nth-of-type(2) {
-  background-color: #9fd3c7; /* Blue background */
-  color: rgb(20, 19, 19);
-}
+  /* Section 2: Education */
+  section:nth-of-type(2) {
+    background-color: #9fd3c7;
+    color: rgb(20, 19, 19);
+  }
 
-section:nth-of-type(2) li {
-    margin-bottom: 20px; /* Adds space between each list item */
-}
-/* Footer Styling */
-footer {
-  background-color: #385170;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 2px solid #ececec; /* Red border on top of the footer */
+  section:nth-of-type(2) li {
+    margin-bottom: 20px;
+  }
+  /* Footer Styling */
+  footer {
+    background-color: #385170;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #ececec;
+  }
 }
